@@ -1,9 +1,11 @@
 import * as React from "react";
 import * as emojis from "emojis-list";
 
+const emojiList = emojis.default || emojis;
+
 export default () => (
   <>
-    <h1>{emojis[2461]} Real Test Page (esbuild)</h1>
+    <h1>{emojiList[2461]} Real Test Page (esbuild)</h1>
     <p>
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto non
       perferendis ut reiciendis, laudantium repellat quam voluptatum quaerat
