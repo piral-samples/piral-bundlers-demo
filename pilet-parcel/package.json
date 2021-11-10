@@ -1,0 +1,63 @@
+{
+  "name": "pilet-parcel",
+  "version": "1.0.0",
+  "description": "Test for Parcel v1",
+  "keywords": [
+    "pilet"
+  ],
+  "importmap": {
+    "imports": {
+      "emojis-list": "./node_modules/emojis-list/index.js"
+    }
+  },
+  "dependencies": {
+    "emojis-list": "^3.0.0"
+  },
+  "devDependencies": {
+    "sample-shell": "file:../sample-shell/dist/emulator/sample-shell-1.0.0.tgz",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "latest",
+    "@types/react-router": "^5.1.8",
+    "@types/react-router-dom": "^5.1.6",
+    "@types/node": "latest",
+    "typescript": "latest",
+    "@dbeining/react-atom": "^4.0.0",
+    "@libre/atom": "latest",
+    "history": "latest",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "tslib": "latest",
+    "path-to-regexp": "latest",
+    "piral-cli": "0.14.0",
+    "piral-cli-parcel": "0.14.0"
+  },
+  "peerDependencies": {
+    "@dbeining/react-atom": "*",
+    "@libre/atom": "*",
+    "history": "*",
+    "react": "*",
+    "react-dom": "*",
+    "react-router": "*",
+    "react-router-dom": "*",
+    "tslib": "*",
+    "path-to-regexp": "*",
+    "sample-shell": "*"
+  },
+  "scripts": {
+    "start": "pilet debug",
+    "build": "pilet build",
+    "upgrade": "pilet upgrade"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "source": "src/index.tsx",
+  "piral": {
+    "comment": "Keep this section to use the Piral CLI.",
+    "name": "sample-shell"
+  },
+  "peerModules": []
+}

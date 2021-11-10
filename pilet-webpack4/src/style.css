@@ -1,0 +1,11 @@
+.foo-wp4 {
+    color: burlywood;
+    font-style: italic;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: #fbfbfb;
+    border: 1px solid greenyellow;
+  }
+  
