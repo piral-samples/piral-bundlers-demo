@@ -6,6 +6,8 @@
 
 :zap: This sample demonstrates the use of an import map in the *package.json* to allow implicit dependency sharing between the pilets. This works across different bundlers. In the given codebase `esbuild`, `parcel` (v1), `webpack` (v4), and `webpack` (v5) are used.
 
+You can visit this demo at [bundlers.samples.piral.cloud/](https://bundlers.samples.piral.cloud/).
+
 ## Getting Started
 
 Each directory represents a standalone part, which may even be its own repository. In each directory run:
